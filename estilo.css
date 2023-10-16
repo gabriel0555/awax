@@ -1,0 +1,569 @@
+body
+
+{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container
+
+{
+    height: 650px;
+    background-color: aqua;
+}
+
+header
+
+{
+    background-color: black;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+.cabecalho
+
+{
+    background-color: black;
+    flex: 1;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.bola
+
+{
+    height: 80px;
+    width: 80px;
+    border-radius: 40px;
+    background-color: #b28756;
+}
+
+.contatos
+
+{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    flex: 3;
+    align-items: center;
+    
+}
+
+
+.contatos ul
+
+{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    border: 0px solid black;
+    border-radius: 3px; 
+    color: white;
+    font-size: 13px;
+}
+
+.contatos ul li a 
+
+{
+    text-decoration: none;
+    color: white;
+}
+
+a
+
+{
+    padding: 8px;
+    padding-bottom: 36px;
+}
+
+#new
+
+{
+    color: #ccc;
+    border-bottom: 5px solid #b28756;
+}
+
+a:hover
+
+{
+    color: #ccc;
+    border-bottom: 5px solid #b28756;
+}
+
+.container2
+
+{
+    height: 600px;
+}
+
+main
+
+{
+    background-image: url("bg.jpg");
+    height: 550px;
+    background-size: cover;  
+    background-position: bottom;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.meio
+
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+    font-size: 25px;
+}
+
+.main,h1, h3
+
+{
+    margin: 0px;
+    color: white;
+}
+
+.callus
+
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 16.6px 0px 30px;
+}
+
+.bege
+
+{
+    color: #b28756;
+
+}
+
+.get 
+
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.get a
+{
+    color: white;
+    background-color:#b28756;
+    border: 1px solid black;
+    border-radius: 15px;
+    font-size: 12px;
+    padding: 10px 30px;
+}
+
+.bolinha
+
+{
+
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.bolinha1
+
+{
+    background-color: #b28756;
+    height: 15px;
+    width: 15px;
+    margin: 10px;
+    border-radius: 20px;
+    border: 2px solid #b28756;
+}
+
+.bolinha2
+
+{
+    border: 2px solid #b28756;
+    height: 15px;
+    width: 15px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.container3
+
+{
+    height: 500px;
+}
+
+.titulos
+
+{
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulos h3 
+
+{
+    color: black;
+    font-size: 22px;
+}
+
+.titulos h5
+
+{
+    color: gray;
+}
+
+.textos
+
+{
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.texto
+
+{
+    display: flex;
+    font-size: 18px;
+    flex-direction: column;
+}
+
+.lorem
+
+{
+    width: 555px;
+    height: 150px;
+    margin: 0px 10px 0px 0px ;
+}
+
+.lorem p
+{
+    height: 150px;
+    margin: 0px ;
+    line-height: 180%;
+    font-size: 14px;
+}
+
+
+#learnmore
+
+{
+    background-color: #b28756;
+    color: white;
+    border: 1px solid #b28756;
+    border-radius: 15px;
+    text-decoration: none;
+    font-size: 12px;
+    padding: 10px 15px;
+    margin-top: 30px;
+    width: 150px;
+    text-align: center;
+}
+
+#imagem
+
+{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 300px;
+}
+
+.container4
+
+{
+    background-color: black;
+    height: 450px;
+}
+
+.titulos2
+
+{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 140px;
+}
+
+
+.titulos2 h3 
+
+{
+    color: white;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.titulos2 h5
+
+{
+    color: rgb(193, 188, 188);
+    margin-top: 20px;
+}
+
+.services 
+
+{
+    display: flex;
+}
+
+.quadrado
+
+{
+    height: 250px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    margin: 0px 30px 0px 30px;
+}
+
+.high
+
+{
+    background-color: black;
+    flex: 1;
+    text-align: center;
+}
+
+.high h3
+
+{
+    margin: 20px 0px 0px ;
+}
+
+.high p
+
+{
+    color: gray;
+}
+
+#medalha
+
+{
+    border-right: 1px solid gray;
+    padding: 15px;
+}
+
+.modern
+
+{
+    background-color: black;
+    text-align: center;
+    flex: 1;
+}
+
+.modern h3
+
+{
+    margin: 20px 0px 0px ;
+}
+
+.modern p
+
+{
+    color: gray;
+}
+
+#estrela
+
+{
+    border-right: 1px solid gray;
+    padding: 15px;
+}
+.regular
+
+{
+    background-color: black;
+    flex: 1;
+    text-align: center;
+}
+
+.regular h3
+
+{
+    margin: 20px 0px 0px ;
+   
+}
+
+.ragular p
+
+{
+    background-color: blue;
+}
+
+#relogio
+
+{
+    border-right: 1px solid gray;
+    padding: 15px;
+}
+
+.fast
+
+{
+    background-color: black;
+    flex: 1;
+    text-align: center;
+}
+
+.fast h3 
+
+{
+    margin: 20px 0px 0px ;
+}
+
+.fast p
+
+{
+    color: gray;
+}
+
+#balao
+
+{
+    border-right: 1px solid gray;
+    padding: 15px;
+}
+
+.container5
+
+{
+    background-color: white;
+    height: 450px;
+}
+
+.titulos3
+
+{
+    background-color: white;
+    height: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.titulos3 h3
+
+{
+    color: black;
+    font-size: 20px;
+}
+
+.titulos3 h5
+
+{
+    color: gray;
+    font-size: 14px;
+}
+
+.formulario
+
+{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.formulario ul
+
+{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    background-color: #eee;
+    color: #ccc;
+    padding: 0PX 20PX;
+}
+
+.formulario li 
+
+{
+    text-decoration: none;
+    font-size: 13px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.formulario a 
+
+{
+    text-decoration: none;
+    color: #555;
+}
+
+.imagens
+
+{
+    background-color: #b28756;
+    height: 500px;
+}
+
+.imagens img
+
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#imagens1
+
+{
+    background-color: aqua;
+    display: flex;
+}
+
+#foto1
+
+{
+    background-color: red;
+    flex: 2;
+    justify-content: center;
+    align-items: end;
+    height: 200px;
+}
+
+#foto2
+
+{
+    background-color: rebeccapurple;
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    height: 200px;
+}
+
+#foto3
+
+{
+    background-color: blue;
+    flex: 2;
+    justify-content: center;
+    height: 200px;
+}
